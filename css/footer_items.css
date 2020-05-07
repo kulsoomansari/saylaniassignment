@@ -1,0 +1,45 @@
+footer{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    top: 600px;
+    background-color: rgb(44, 41, 41);
+
+}
+.main-content{
+    display: flex;
+    position: relative;
+    top: 60px;
+}
+.main-content .box{
+    flex-basis: 50%;
+}
+.box h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+}
+.box{
+    position: relative;
+    top: 20px;
+}
+.left-box{
+    margin-left: 50px;
+    padding: 10px;
+}
+.left-box p{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: gray;
+}
+.left-box ul{
+    list-style: none;
+    line-height: 25px;
+}
+.left-box li{
+    color: gray;
+}
+.left-box li i{
+    color: green;
+    padding-right: 10px;
+}
